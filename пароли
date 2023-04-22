@@ -1,0 +1,18 @@
+cool.tspa@mail.ru
+- WEtka393.60019750115393.600
+rybak322nek@mail.ru
+- WeTKa393.60019750115393.600
+
+global responseService - {
+			success: true, -- boolean
+			message: 'The user has been successfully register', -- string
+			data: userResponse -- obj
+};
+
+global responseController - {
+			status: 'CREATED', -- string
+			...(развернуть с сервиса):
+				success: true, -- boolean
+				message: 'The user has been successfully register', -- string
+				data: userResponse -- obj
+};
